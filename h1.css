@@ -1,0 +1,48 @@
+
+.header {
+    padding:70px;
+    text-align: center;
+   background-color:cornflowerblue;
+   background-image: url("Capture.PNG");
+
+    
+  }
+  .header h1 {
+    font-size: 60px;
+    color: yellow;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #633;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: red;
+    color: blue;
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  body{
+  }
